@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+    <title>Task 8</title>
+    <style>
+        body {
+            padding: 10px;
+            background-color: whitesmoke;
+        }
+
+        header {
+            text-align: center;
+            color: brown;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        .about-us {
+            background-color: white;
+            margin: 30px;
+            border-radius: 10px;
+            padding: 20px 30px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .grid-2 .box {
+            background-color: rgb(233, 233, 233);
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: rgb(235, 235, 235);
+            margin: 30px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🍨 Ice Cream World</h1>
+        <p>Cool Treats for Hot Days</p>
+    </header>
+
+    <section class="gallery">
+        <div class="card">
+            <img src="assets/task8pic1.jpg" alt="Vanilla">
+            <p>Vanilla - Rs.60</p>
+        </div>
+        <div class="card">
+            <img src="assets/task8pic2.jpg" alt="Chocolate">
+            <p>Chocolate - Rs.80</p>
+        </div>
+        <div class="card">
+            <img src="assets/task8pic3.jpg" alt="Strawberry">
+            <p>Strawberry - Rs.60</p>
+        </div>
+        <div class="card">
+            <img src="assets/task8pic4.jpg" alt="Mint">
+            <p>Mint - Rs.50</p>
+        </div>
+        <div class="card">
+            <img src="assets/task8pic5.jpg" alt="Caramel">
+            <p>Caramel - Rs.90</p>
+        </div>
+        <div class="card">
+            <img src="assets/task8pic6.jpg" alt="Mango">
+            <p>Mango - Rs.60</p>
+        </div>
+        <div class="card">
+            <img src="assets/task8pic7.jpg" alt="Blueberry">
+            <p>Blueberry - Rs.60</p>
+        </div>
+        <div class="card">
+            <img src="assets/task8pic8.jpg" alt="Coffee">
+            <p>Coffee - Rs.70</p>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h2 style="text-align: center; color: darkblue;">About Us</h2>
+        <p>Welcome to Ice Cream World, where every scoop tells a story! Since 1990, we’ve been serving smiles with our
+            handcrafted, all-natural ice cream made from the freshest ingredients. Whether you crave the classics or
+            want to explore bold, unique flavors, we’ve got something to satisfy every sweet tooth.</p>
+
+        <p> Our passion for quality and creativity has helped us grow from a single neighborhood shop into a global
+            favorite with fans all over the world. At Ice Cream World, we don’t just make desserts—we create moments of
+            joy, one scoop at a time.</p>
+    </section>
+
+    <section class="grid-2">
+        <div class="box">
+            <h3>Fresh Ingredients</h3>
+            <p>Only the best for your taste buds</p>
+        </div>
+        <div class="box">
+            <h3>Multiple Branches</h3>
+            <p>Find us in over 20+ Branches</p>
+        </div>
+    </section>
+
+    <footer>
+        <h2 style="color: darkcyan; text-align: center;">Contact us</h2>
+        <p>Ice Cream World Pvt. Ltd.,<br>
+            Flying Heaven Mall,<br>
+            Chennai - 600 001,<br>
+            Ph. no: 8766524215
+        </p>
+    </footer>
+
+</body>
+
+</html>
